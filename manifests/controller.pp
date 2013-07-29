@@ -322,6 +322,7 @@ class openstack::controller (
     admin_email           => $admin_email,
     admin_password        => $admin_password,
     public_address        => $public_address,
+    public_protocol       => $public_protocol,
     internal_address      => $internal_address_real,
     admin_address         => $admin_address_real,
     region                => $region,
